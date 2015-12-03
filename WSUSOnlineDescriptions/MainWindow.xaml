@@ -67,7 +67,7 @@
 					If you have more than one update language installed, select the language whose descriptions should be overwritten with the new text.
 					<LineBreak />
 					<LineBreak />
-					If neccessary, edit the update descriptions in the table below. Click the 'Apply descriptions' button to save the values to the WSUS database.
+					If neccessary, edit the update descriptions in the table below. Click the 'Apply descriptions' button to commit the values to the WSUS database.
 				</TextBlock>
 
 				<ComboBox Margin="10,0,10,10" Grid.Row="2" Width="200" ItemsSource="{Binding ServerVersions}" SelectedItem="{Binding SelectedServerVersion}" Style="{StaticResource ServerComboBoxStyle}" />
