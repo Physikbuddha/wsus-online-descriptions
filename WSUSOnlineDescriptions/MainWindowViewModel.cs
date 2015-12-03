@@ -165,7 +165,7 @@ namespace WSUSOnlineDescriptions
 						"JOIN tbUpdate u ON p.UpdateID = u.UpdateID " +
 						"JOIN tbRevision r ON u.LocalUpdateID = r.LocalUpdateID " +
 						"JOIN tbKBArticleForRevision kb ON r.RevisionID = kb.RevisionID " +
-						"WHERE p.ShortLanguage = 'de' AND u.IsHidden = 0 AND r.State = 3 AND r.IsLatestRevision = 1 " +
+						"WHERE u.IsHidden = 0 AND r.State = 3 AND r.IsLatestRevision = 1 " +
 						"ORDER BY kb.KBArticleID",
 						con))
 					{
