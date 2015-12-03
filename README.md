@@ -1,4 +1,4 @@
-# WSUS Online Descriptions - Readme file
+# WSUS Online Descriptions
 Adds the Windows Update descriptions from the official KB articles to your WSUS server.
 No more generic messages. Find out which update does what.
 
